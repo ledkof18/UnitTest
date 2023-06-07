@@ -16,12 +16,8 @@ class EmployeesViperPresenter: EmployeesViperPresenterProtocol, EmployeesViperIn
     init() {}
         
     func fetchData() {
-        guard let view = viewController as? EmployeesViperViewController else { return }
         interactor?.fetchCharacters(completion: { response in
-            view.characters = response
-            DispatchQueue.main.async {
-                view.tableView.reloadData()
-            }
+            self.viewController?.updateData(characters: response)
         })
     }
 }

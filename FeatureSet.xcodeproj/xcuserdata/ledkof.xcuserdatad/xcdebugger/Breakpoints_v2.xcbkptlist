@@ -3,4 +3,130 @@
    uuid = "ED890267-F2B0-43EC-A646-5054A4096C90"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58B4F0C9-B058-4AB3-AB12-017AF451CB93"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeatureSetTests/EmployeesViperViewControllerTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "test_viewDidLoad_configuresCell()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "58B4F0C9-B058-4AB3-AB12-017AF451CB93 - a4d6a8c39172c491"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureSetTests.EmployeesViperViewControllerTest.test_viewDidLoad() -&gt; ()"
+                  moduleName = "FeatureSetTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ledkof/Documents/Github/FeatureSet/FeatureSetTests/EmployeesViperViewControllerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "58B4F0C9-B058-4AB3-AB12-017AF451CB93 - a4d6a8c39172c491"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureSetTests.EmployeesViperViewControllerTest.test_viewDidLoad() -&gt; ()"
+                  moduleName = "FeatureSetTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ledkof/Documents/Github/FeatureSet/FeatureSetTests/EmployeesViperViewControllerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1296">
+               </Location>
+               <Location
+                  uuid = "58B4F0C9-B058-4AB3-AB12-017AF451CB93 - a4d6a8c39172c491"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureSetTests.EmployeesViperViewControllerTest.test_viewDidLoad() -&gt; ()"
+                  moduleName = "FeatureSetTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ledkof/Documents/Github/FeatureSet/FeatureSetTests/EmployeesViperViewControllerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1068">
+               </Location>
+               <Location
+                  uuid = "58B4F0C9-B058-4AB3-AB12-017AF451CB93 - a4d6a8c39172c491"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureSetTests.EmployeesViperViewControllerTest.test_viewDidLoad() -&gt; ()"
+                  moduleName = "FeatureSetTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ledkof/Documents/Github/FeatureSet/FeatureSetTests/EmployeesViperViewControllerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1452">
+               </Location>
+               <Location
+                  uuid = "58B4F0C9-B058-4AB3-AB12-017AF451CB93 - acde55078a5a4295"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureSetTests.EmployeesViperViewControllerTest.test_viewDidLoad_configuresCell() -&gt; ()"
+                  moduleName = "FeatureSetTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ledkof/Documents/Github/FeatureSet/FeatureSetTests/EmployeesViperViewControllerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  uuid = "58B4F0C9-B058-4AB3-AB12-017AF451CB93 - acde55078a5a4295"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeatureSetTests.EmployeesViperViewControllerTest.test_viewDidLoad_configuresCell() -&gt; ()"
+                  moduleName = "FeatureSetTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ledkof/Documents/Github/FeatureSet/FeatureSetTests/EmployeesViperViewControllerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "892">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0AED5FF-8B0B-49E6-B934-206B814EA4A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeatureSet/Sections/MVVM/Employees/Controller/EmployeesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

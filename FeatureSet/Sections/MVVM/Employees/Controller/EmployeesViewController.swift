@@ -27,12 +27,12 @@ class EmployeesViewController: UIViewController {
         }
         
         self.employeeViewModel.bindEmployeeViewModelToController = {
-            self.updateDataSource()
+            self.updateDataSource(result: self.employeeViewModel.empData.results)
         }
     }
     
-    func updateDataSource(){
-        self.dataSource = EmployeeTableViewDataSource(cellIdentifier: "EmployeesViewCell", items: self.employeeViewModel.empData.results, configureCell: { cell, evm in
+    func updateDataSource(result: [Character]){
+        self.dataSource = EmployeeTableViewDataSource(cellIdentifier: "EmployeesViewCell", items: result, configureCell: { cell, evm in
             cell.employeeNameLabel.text = evm.gender
             cell.employeeIDLabel.text = evm.name
         })

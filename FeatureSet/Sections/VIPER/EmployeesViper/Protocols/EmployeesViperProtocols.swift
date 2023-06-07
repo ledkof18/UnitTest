@@ -14,6 +14,7 @@ protocol EmployeesViperViewControllerProtocol: AnyObject {
     /**
     * Add here your methods for communication PRESENTER -> VIEW
     */
+    func updateData(characters: Characters)
 }
 
 protocol EmployeesViperWireFrameProtocol: AnyObject {

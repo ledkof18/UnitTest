@@ -14,6 +14,7 @@ class EmployeesViperViewController: UIViewController, EmployeesViperViewControll
     
     @IBOutlet weak var tableView: UITableView!
     var characters: Characters?
+    var another: Characters?
 
     static func viewController() -> EmployeesViperViewController{
         let storyboard  = UIStoryboard(name: "EmployeesViper", bundle: Bundle.main)
@@ -35,6 +36,13 @@ class EmployeesViperViewController: UIViewController, EmployeesViperViewControll
     func registerCells(){
         tableView.register(UINib(nibName: "TwoLinesViewCell", bundle: .main), forCellReuseIdentifier: "TwoLinesViewCell")
     }
+    
+    func updateData(characters: Characters){
+        self.characters = characters
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
 
 }
 
@@ -55,3 +63,4 @@ extension EmployeesViperViewController: UITableViewDelegate, UITableViewDataSour
         EmployeesDetailWireFrame.presentEmployeesDetailModule(fromView: self, character: character)
     }
 }
+

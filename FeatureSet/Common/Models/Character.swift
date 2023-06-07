@@ -18,4 +18,5 @@ struct Character: Codable{
     let type: String
     let gender: String
     let image: String
+    
 }

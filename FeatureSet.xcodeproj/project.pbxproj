@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6839E3D92A29306600A635A8 /* TwoLinesViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6839E3D82A29306600A635A8 /* TwoLinesViewCell.xib */; };
+		68493FD82A3008DF0093A7B0 /* EmployeesViperViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68493FD72A3008DF0093A7B0 /* EmployeesViperViewControllerTest.swift */; };
 		68796E6B2A0DA77100CD771B /* MockCharactersResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 68796E6A2A0DA77100CD771B /* MockCharactersResponse.json */; };
 		68796E6D2A0DA87900CD771B /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68796E6C2A0DA87900CD771B /* Mockable.swift */; };
 		68796E6F2A0DB43400CD771B /* CharactersInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68796E6E2A0DB43400CD771B /* CharactersInteractorTests.swift */; };
@@ -73,6 +74,7 @@
 
 /* Begin PBXFileReference section */
 		6839E3D82A29306600A635A8 /* TwoLinesViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoLinesViewCell.xib; sourceTree = "<group>"; };
+		68493FD72A3008DF0093A7B0 /* EmployeesViperViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViperViewControllerTest.swift; sourceTree = "<group>"; };
 		68796E6A2A0DA77100CD771B /* MockCharactersResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockCharactersResponse.json; sourceTree = "<group>"; };
 		68796E6C2A0DA87900CD771B /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
 		68796E6E2A0DB43400CD771B /* CharactersInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersInteractorTests.swift; sourceTree = "<group>"; };
@@ -148,6 +150,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68493FD42A3008540093A7B0 /* EmployeesViperInteractorTest */ = {
+			isa = PBXGroup;
+			children = (
+				68796E6E2A0DB43400CD771B /* CharactersInteractorTests.swift */,
+			);
+			path = EmployeesViperInteractorTest;
+			sourceTree = "<group>";
+		};
+		68493FD52A3008710093A7B0 /* EmployeesViewModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				68796E732A0F188600CD771B /* EmployeesViewModelTest.swift */,
+			);
+			path = EmployeesViewModelTest;
+			sourceTree = "<group>";
+		};
 		68796E702A0EE92900CD771B /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,9 +227,10 @@
 		68B59E6D29F86FD000A49F77 /* FeatureSetTests */ = {
 			isa = PBXGroup;
 			children = (
+				68493FD72A3008DF0093A7B0 /* EmployeesViperViewControllerTest.swift */,
 				68C687EC2A27D6DD00A06D7E /* EmployeesDetailTest */,
-				68796E6E2A0DB43400CD771B /* CharactersInteractorTests.swift */,
-				68796E732A0F188600CD771B /* EmployeesViewModelTest.swift */,
+				68493FD52A3008710093A7B0 /* EmployeesViewModelTest */,
+				68493FD42A3008540093A7B0 /* EmployeesViperInteractorTest */,
 				68C06DBF2A0D8720001D3579 /* MockHTTPClient.swift */,
 				68796E6C2A0DA87900CD771B /* Mockable.swift */,
 				68796E6A2A0DA77100CD771B /* MockCharactersResponse.json */,
@@ -464,8 +483,8 @@
 		68C687EC2A27D6DD00A06D7E /* EmployeesDetailTest */ = {
 			isa = PBXGroup;
 			children = (
-				68C687ED2A27D74D00A06D7E /* EmployeesDetailPresenterMock.swift */,
 				68C687F12A27D86400A06D7E /* EmployeesDetailViewControllerTest.swift */,
+				68C687ED2A27D74D00A06D7E /* EmployeesDetailPresenterMock.swift */,
 			);
 			path = EmployeesDetailTest;
 			sourceTree = "<group>";
@@ -668,6 +687,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68493FD82A3008DF0093A7B0 /* EmployeesViperViewControllerTest.swift in Sources */,
 				68C06DC02A0D8720001D3579 /* MockHTTPClient.swift in Sources */,
 				68C687EE2A27D74D00A06D7E /* EmployeesDetailPresenterMock.swift in Sources */,
 				68796E6D2A0DA87900CD771B /* Mockable.swift in Sources */,
